@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/scorpion.jpg);
+    background-size: cover;
+    color: rgb(41, 238, 179);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.userlogin {
+    background-color: #ffffff;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156, 234,16);
+    margin-top: 10%;
+}
+.tittle {
+    font-size: 28px;
+    font-style: italic;
+    color: blue;
+    float: left;
+
+}
+.passwordlogin {
+    background-color: #cd0a0a;
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px solid rgb(156, 234,16);
+    margin-top: 10%;
+}
+.userid {
+    margin-right: 5px;
+    padding-left: 5px;
+    height: 25px;
+    width: 300px;
+    border: solid 2px #09c222;
+    border-radius: 10px;
+}
+.enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button {
+    border-radius: 15px;
+    width: 130px;
+}
+.buttons img {
+    width: 60px;
+    height: 60px;
+}
