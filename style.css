@@ -1,6 +1,61 @@
-
- *{
-    background-color: rgb(43, 153, 226);
+* {
+   margin: 0%;
+   padding: 0%;
+}
+ body {
+    background-image: url(./img/sharingan.jpg);
+    background-size: cover;
     font -family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: rgb(255, 255, 255);
+    align-items: center;
  }
+ header {
+   display: flex;
+   height: 20vh;
+   align-items: center;
+   text-align: center;
+   justify-content:  center;
+   background-color: rgba(255, 255, 255, 0.5);
+ }
+ .container {
+   display: flex;
+   background-color: rgba(72, 0, 72, 0.5);
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+
+
+ }
+ .content {
+   float: right;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+ }
+ .content2 {
+   justify-content: center;
+   float: left;
+   width: 20%;
+   text-align: center;
+   align-items: center;
+
+ }
+ ul {
+   align-items: center;
+   justify-content: center;
+list-style-type: none;
+padding: 0%;
+margin: 0%;
+ }
+ ul h2 {
+   padding: 20px;
+ }
+ a {
+   text-decoration: none;
+color: inherit;
+
+}
+a:hover {
+   color: red;
+}

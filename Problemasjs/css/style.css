@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(../img/jss.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+  
+   
+}
+header {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(72, 0, 72, 0.5);
+    border-radius: 10px;
+    height: 5vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+  
+}
+aside {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 85vh;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-align: center;
+    
+
+
+}
+aside ul {
+    align-items: center;
+ list-style-type: none;
+ padding: 0%;
+ margin: 0%;
+ 
+}
+aside li {
+    display: block;
+    padding: 8px;
+
+}
+a {
+    text-decoration: none;
+ color: inherit;
+
+}
+a:hover {
+    color: red;
+}
+.container {
+  
+    background-color: rgba(135, 206, 235, 0.5);
+    float: right;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+height: 85vh;
+    width: 90%;
+    border-top: 10px;
+
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.container section {
+  
+    background-color: rgba(2, 245, 0, 0.5);
+     align-items: center;
+     border-radius: 10px;
+     margin-top: 10px;
+     margin-bottom: 45spx;
+     margin-left: 10%;
+   
+     width: 80%;
+}
+.container h2 {
+    text-align: center;
+}
+.container2{
+    background-color: rgba(135, 206, 235, 0.5);
+    float: right;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+height: 85vh;
+    width: 90%;
+    border-top: 10px;
+text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+.container2 section {
+    position: absolute;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    top: 5%;
+    
+    width: 80%;
+}
+.container2 input {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 5vh;
+}
+.container2 button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+.container3{
+    background-color: rgba(135, 206, 235, 0.5);
+    float: right;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+height: 85vh;
+    width: 90%;
+    border-top: 10px;
+text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+
+}
+.container3 section {
+    position: absolute;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    top: 5%;
+    
+    width: 80%;
+}
+.container3 input {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 5vh;
+}
+.container3 button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
+section {
+    border: 2px solid #ffffff;
+    text-align: center;
+    text: siz 3px;
+}
+button {
+    width: 20%;
+    height: 5vh;
+}
+button:hover {
+    color: #ffffff;
+    background-color: red;
+}
+input {
+    text-align: center;
+}
+.resultado {
+    padding: 3px;
+}
