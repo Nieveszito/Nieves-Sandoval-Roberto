@@ -46,7 +46,7 @@
         <section>
         <label for="capitalinicio">Ingrese el capital inicial</label>
         <br>
-        <input type="number" id="capitalinicio" placeholder="Ingrese el capital inicial">
+        <input type="number" id="capitalinicio" placeholder="Ingrese el capital inicial" onkeypress="return validacionNumeros(event)" required>
         <br>
         <button onclick="capitalbanco()">Calcular ganancia</button>
         <div id="resultado"  class="resultado"></div>

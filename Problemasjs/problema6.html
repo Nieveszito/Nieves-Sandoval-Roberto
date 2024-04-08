@@ -46,7 +46,8 @@
         <section>
         <label for="edad">Edad</label>
         <br>
-        <input type="date" id="fecha" placeholder="Ingrese fecha de nacimiento">
+        <input type="date" id="fecha" placeholder="Ingrese fecha de nacimiento" onkeypress="return validacionNumeros(event)" required>
+        
         <br>
         <button onclick="edad()">Calcular edad</button>
         <div id="resultado" class="resultado"></div>

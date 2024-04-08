@@ -47,13 +47,13 @@
         <section>
         <label for="sueldobase">Ingrese el capital inicial</label>
         <br>
-        <input type="number" id="sueldobase" placeholder="Ingrese su sueldo base">
+        <input type="number" id="sueldobase" placeholder="Ingrese su sueldo base" onkeypress="return validacionNumeros(event)" required>
         <br>
-        <input type="number" id="venta1" placeholder="Ingresa la venta 1">
+        <input type="number" id="venta1" placeholder="Ingresa la venta 1" onkeypress="return validacionNumeros(event)" required>
         <br>
-        <input type="number" id="venta2" placeholder="Ingresa la venta 2">
+        <input type="number" id="venta2" placeholder="Ingresa la venta 2" onkeypress="return validacionNumeros(event)" required>
         <br>
-        <input type="number" id="venta3" placeholder="Ingresa la venta 3">
+        <input type="number" id="venta3" placeholder="Ingresa la venta 3" onkeypress="return validacionNumeros(event)" required>
 
         <br>
         <button onclick="sueldobase()">Calcular ganancias</button>

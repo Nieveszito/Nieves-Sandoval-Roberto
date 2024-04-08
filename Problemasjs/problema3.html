@@ -47,7 +47,7 @@
         <section>
         <label for="cobrotienda">Ingrese el capital inicial</label>
         <br>
-        <input type="number" id="cobrotienda" placeholder="Ingrese el precio total a pagar">
+        <input type="number" id="cobrotienda" placeholder="Ingrese el precio total a pagar" onkeypress="return validacionNumeros(event)" required>
         <br>
         <button onclick="descuento()">Calcular ganancia</button>
         <div id="resultado"  class="resultado"></div>

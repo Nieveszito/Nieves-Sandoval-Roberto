@@ -46,9 +46,9 @@
         <section>
         <label for="porcpersonas">Porcentaje hombres y mujeres</label>
         <br>
-        <input type="number" id="hombres" placeholder="Ingrese el número de hombres">
+        <input type="number" id="hombres" placeholder="Ingrese el número de hombres" onkeypress="return validacionNumeros(event)" required>
         <br>
-        <input type="number" id="mujeres" placeholder="Ingrese el número de mujeres">
+        <input type="number" id="mujeres" placeholder="Ingrese el número de mujeres" onkeypress="return validacionNumeros(event)" required>
         <br>
         <button onclick="grupohombremujer()">Calcular porcentajes</button>
         <div id="resultado"  class="resultado"></div>
