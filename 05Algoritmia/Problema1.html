@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h2>PROBLEMAS ALGORITMIA</h2>
+    </header>
+    <div class="container">
+        <section class="section1">
+            <ul>
+                <li><h2>PROBLEMAS</h2></li>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="Problema2.html">Problema 2</a></li>
+                <li><a href="Problema3.html">Problema 3</a></li>
+            </ul>
+            </section>
+            <section class="section2">
+                <div class="problema-container" >
+                    <h2>Problema 1</h2>
+                    <h4>
+                        Dada una lista de palabras separadas por un espacio, invierte
+                        el orden de dichas palabras. Las palabras solo pueden estar
+                        separadas por un espacio.
+                    </h4>
+                    <div class="problema-content" >
+                        <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por un espacio" id="p1-input" onkeypress="return validarLetras(event)" required>
+                        <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema1()" >Invertir</button>
+                        <pre class="problema-output" id="p1-output" >Esperando respuesta ...</pre>
+        
+                    </div>
+                </div>
+            </section>
+        
+        </div>
+        <footer>
+            <h2>Estos son los 3 problemas con javascript</h2>
+        </footer>
+    <script src="./js/funcionesalgoritmia.js" ></script>
+    
+</body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header {
+align-items: center;
+align-content: center;
+text-align: center;
+background-color: blue;
+color: aliceblue;
+height: 15vh;
+
+}
+ul {
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+    padding: 8px;
+
+}
+a {
+    text-decoration: none;
+ color: inherit;
+
+}
+a:hover {
+    color: red;
+}
+.container{
+    display: flex;
+    background-image: url(../img/jss.jpg);
+    background-size: cover;
+    height: 75vh;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+width: 15%;
+height: 75vh;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 75vh;
+    width: 85%;
+    background-color: rgba(255, 0, 255, 0.5);;
+   
+}
+.problema-container h2{
+    text-align: center;
+}
+.problema-container h4{
+    text-align: justify;
+}
+input {
+    width: 30%;
+}
+button {
+    width: 15%;
+}
+button:hover {
+    color: #ffffff;
+    background-color: blue;
+}
+footer {
+    align-items: center;
+align-content: center;
+text-align: center;
+    background-color: blue;
+    height: 10vh;
+    color: aliceblue;
+}

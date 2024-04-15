@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h2>PROBLEMAS ALGORITMIA</h2>
+    </header>
+    <div class="container">
+        <section class="section1">
+            <ul>
+                <li><h2>PROBLEMAS</h2></li>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="Problema1.html">Problema 1</a></li>
+                <li><a href="Problema2.html">Problema 2</a></li>
+            </ul>
+            </section>
+            <section class="section2">
+                <div class="problema-container" >
+                    <h2 class="problema-title" >Problema 3</h2>
+                    <h4>
+                        Dada una lista de palabras, encontrar la palabra que mas numero
+                        de caracteres unicos tenga.
+                        <br>
+                        Ejempplo: CASA = 3 (c, a, s)   PERRO = 4 (p, e, r, o)
+                        <br>
+                        Considera solamente un alfabeto de la A-Z en mayusculas. 
+                        <br>
+                        Las palabras ingresadas deberan estar separadas por una coma, no 
+                        se aceptan espacios.
+                    </h4>
+                    <div class="problema-content" >
+                        <input type="text" class="problema-input" 
+                        placeholder="Ingresa las palabras separadas por una coma"
+                        id="p3-input" validarLetras2(event)" required>
+                        <button type="button" class="problema-button"
+                        style="margin-top: 1rem;" onclick="problema3()" >Calcular</button>
+                        <pre class="problema-output"
+                        id="p3-output" >Esperando respuesta ...</pre>
+        
+                    </div>
+            </section>
+        
+        </div>
+    </div>
+        <footer>
+            <h2>Estos son los 3 problemas con javascript</h2>
+        </footer>
+    <script src="./js/funcionesalgoritmia.js" ></script>
+    
+</body>
+</html>

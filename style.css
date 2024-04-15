@@ -18,7 +18,7 @@
    background-color: rgba(255, 255, 255, 0.5);
  }
  .container {
-   display: flex;
+
    background-color: rgba(72, 0, 72, 0.5);
    text-align: center;
    align-items: center;
@@ -28,14 +28,10 @@
 
  }
  .content {
-   float: right;
-   justify-content: center;
    text-align: center;
    align-items: center;
  }
  .content2 {
-   justify-content: center;
-   float: left;
    width: 20%;
    text-align: center;
    align-items: center;
@@ -58,4 +54,8 @@ color: inherit;
 }
 a:hover {
    color: red;
+}
+.content ul {
+  column-count: 2;
+  column-gap: 20px;
 }

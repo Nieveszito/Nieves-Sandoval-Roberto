@@ -1,0 +1,11 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: brown;
+    color: aliceblue;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
